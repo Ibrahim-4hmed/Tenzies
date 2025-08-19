@@ -89,6 +89,8 @@ rollBtn.addEventListener("click", ()=> {
 newGameBtn.addEventListener("click", ()=> {
     btns.forEach(btn => btn.disabled = false)
     newGame()
+    rollBtn.style.display = "block";
+    newGameBtn.style.display = "none";
 })
 
 
